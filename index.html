@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- title name -->
+    <title>Loan Appivation form</title>
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- javascript link -->
+    <script src="loan.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" onsubmit="return validation()" class="form-container">
+        <h1 class="head">Loan Application</h1>
+        <label for="myName">Full Name <span style="color: red">*</span></label>
+        <br />
+        <input
+          autocomplete="off"
+          type="text"
+          name="myName"
+          id="myName"
+          placeholder="enter full name"
+        />
+        <br />
+        <span id="myNameid"></span>
+        <br />
+        <label for="myEmail">Email <span style="color: red">*</span></label>
+        <br />
+        <input
+          autocomplete="off"
+          type="text"
+          name="myEmail"
+          id="myEmail"
+          placeholder="enter email address"
+        /><br />
+        <span id="myMailid"></span>
+        <br />
+        <label for="myPan">PAN <span style="color: red" pl>*</span></label>
+        <br />
+        <input
+          autocomplete="off"
+          type="text"
+          name="myPan"
+          id="myPan"
+          placeholder="e.g:- ABCDE1234F"
+        /><br />
+        <span id="myPanid"></span>
+        <br />
+        <label for="myLoan"
+          >Loan Ammount <span style="color: red">*</span></label
+        >
+        <br />
+        <input
+          autocomplete="off"
+          type="text"
+          name="myLoan"
+          id="myLoan"
+          placeholder="enter loan amount"
+        /><br />
+        <span id="myLoanid"></span>
+        <br />
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
