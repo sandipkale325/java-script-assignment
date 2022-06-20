@@ -12,7 +12,7 @@ function validation() {
   }
   if (!myName.match(letters)) {
     document.getElementById("myNameid").innerHTML =
-      "*Only charrectors are allowed";
+      "*Only charactors are allowed";
     return false;
   }
 
