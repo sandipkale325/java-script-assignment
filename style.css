@@ -42,6 +42,9 @@ span {
 ::placeholder {
   text-align: center;
 }
+input:focus::placeholder {
+  color: transparent;
+}
 .btn {
   width: 18rem;
   margin-bottom: 2.8rem;
